@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding :0;
+}
+
+body{
+    background-color: #eee;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    max-width: 1000px;
+    background-color: #e4f9f9;
+    margin: auto;
+    padding:20px;
+}
+
+.profile-image{
+    width: 250px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float:left;
+}
+.bio-header{
+    float:left;
+    padding:25px;
+}
+h1,h2,h3{
+    color: #11999e;
+}
+.contact{
+    float:right;
+    padding:30px;
+}
+.contact a{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+.contact a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color:blue;
+    
+}
+.div-clear{
+    clear:both;
+}
+
+hr{
+    border:solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.left-div{
+    width:30%;
+    float:left;
+
+}
+.right-div{
+    width:70%;
+    float:left;
+
+}
+
+.common-hr{
+    border:1px solid black;
+    border-bottom: none;
+    width:100%;
+    margin: 20px auto;
+}
+
+.content{
+    margin:20px;
+}
+
+.pro {
+    text-decoration: none;
+}
+.pro:hover {
+    text-decoration: underline;
+}
+
+
